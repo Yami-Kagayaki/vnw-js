@@ -20,7 +20,13 @@ function entreterimento(filme, musica) {
   printOnConsole(musica);
 }
 
+function triple(num) {
+  console.log("");
+  printOnConsole(num * 3);
+}
+
 printOnConsole("Opa");
 recebeNome("Lucas");
 pessoa("Lucas", 20, "Rock");
 entreterimento("No Game No Life ZERO", "Mr.FEAR - SIAMES");
+triple(2);
